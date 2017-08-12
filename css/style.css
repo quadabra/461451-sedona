@@ -1,0 +1,52 @@
+body {
+	text-transform: lowercase;
+	font-family: "pt-sans", sans-serif;
+	
+}
+.page-header{
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+}
+.logo {
+	position: absolute;
+	top: 0;
+	left: auto;
+}
+h2 {
+	font-size: 21px;
+}
+p {
+	font-size: 14px;
+}
+.nav-menu {
+	margin: 0 auto;
+	max-width: 1200px;
+	min-width: 768px;
+	height: 56px;
+	display: flex;
+	
+	
+}
+
+}
+.nav-item {
+	min-width: 22%;
+	display: block;
+	text-align: center;
+	line-height: 56px;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+}
+.map-form {
+	background-image: url("../img/map.jpg");
+	background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+	height: 600px;
+	max-width: 1200px;
+	min-width: 768px;
+}
