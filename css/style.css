@@ -1,52 +1,73 @@
 body {
-	text-transform: lowercase;
-	font-family: "pt-sans", sans-serif;
-	
+  text-transform: lowercase;
+  font-family: "pt-sans", sans-serif;
 }
-.page-header{
-	padding: 0;
-	margin: 0 auto;
-	position: relative;
+
+.container {
+  min-width: 768px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+.page-header {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.logo-center {
+  display: flex;
+  width: 1200px;
+  height: 0;
+}
+
 .logo {
-	position: absolute;
-	top: 0;
-	left: auto;
+  display: block;
+  margin: 0 auto;
 }
+
 h2 {
-	font-size: 21px;
+  font-size: 21px;
 }
+
 p {
-	font-size: 14px;
+  font-size: 14px;
 }
+
 .nav-menu {
-	margin: 0 auto;
-	max-width: 1200px;
-	min-width: 768px;
-	height: 56px;
-	display: flex;
-	
-	
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 768px;
+  height: 56px;
+  display: flex;
+  justify-content: space-around;
 }
+
 
 }
 .nav-item {
-	min-width: 22%;
-	display: block;
-	text-align: center;
-	line-height: 56px;
-}
-
-.logo {
-	display: block;
-	margin: 0 auto;
+  width: 22%;
+  display: block;
+  text-align: center;
+  height: 56px;
 }
 .map-form {
-	background-image: url("../img/map.jpg");
-	background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-	height: 600px;
-	max-width: 1200px;
-	min-width: 768px;
+  background-image: url("../img/map.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 600px;
+  max-width: 1200px;
+  min-width: 768px;
+}
+.index-header-container {
+  max-width: 1200px;
+  min-width: 768px;
+  height: 560px;
+  background-image: url("../img/header_photo.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.feature {
+  display: inline-block;
 }
