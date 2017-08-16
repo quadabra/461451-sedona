@@ -1,6 +1,6 @@
 body {
   text-transform: uppercase;
-  font-family: "pt-sans", sans-serif;
+  font-family: 'PT Sans narrow', sans-serif;
   padding: 0;
   
 }
@@ -15,9 +15,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0;
-  
-  
-  
+  box-shadow: 0 0 30px black;
 }
 
 
@@ -45,6 +43,15 @@ body {
   top: 132px;
   
 }
+
+.nav-menu {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 768px;
+  height: 56px;
+  background-color: white;
+}
+
 .nav-item {
   width: 20%;
   display: block;
@@ -66,11 +73,25 @@ body {
   float: right;
 }
 
+
 .feature-title {
   font-size: 21px;
   text-align: center;
-  
 }
+
+.description {
+  width: 80%;
+  color: #333333;
+}
+
+.feature-blue {
+  background-color: #81b3d2;
+  color: white;
+}
+.feature-white {
+  color: #333333;
+}
+
 .feature-number {
   display: block;
   
@@ -85,7 +106,7 @@ body {
 }
 .title {
   display: block;
-  width: 550px;
+  width: 450px;
   margin: 61px auto 38px;
   font-weight: 700;
   line-height: 26px;
@@ -97,19 +118,10 @@ body {
   font-size: 14px;
   margin: 0 auto;
   text-align: center;
-  color: #333333;
-}
-.feature .description {
-  width: 80%;
+  
 }
 
-.nav-menu {
-  margin: 0 auto;
-  width: 100%;
-  min-width: 768px;
-  height: 56px;
-  background-color: white;
-}
+
 
 .feature-block {
   margin: 0 auto;
@@ -169,8 +181,7 @@ body {
   min-width: 768px;
 }
 .index-header-container {
-  max-width: 1200px;
-  min-width: 768px;
+  width: inherit;
   height: 564px;
   background-image: url("../img/header_photo.jpg");
   background-repeat: no-repeat;
